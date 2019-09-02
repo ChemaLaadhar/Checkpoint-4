@@ -1,0 +1,82 @@
+body{background:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    Linear-gradient(127deg, black, black 70.71%),
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);}
+    /* #images {
+        width:75%;
+       margin: auto;} */
+
+
+.r
+
+{display:inline-block;
+    display:flex;
+    justify-content:center;
+}
+
+a{color: white;
+    
+    display:inline-block;
+    display:flex;
+    justify-content: center;} 
+
+#nav a:hover{color: red;}
+#nav{
+    display:flex;
+    justify-content:space-around;
+ 
+   
+}
+#nav a{
+    margin: 10px;
+    margin-left:-50px;
+}
+.t,#form{display: flex;
+    justify-content: center;
+    color:white;}
+
+    .text{
+        color:white;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+     background-image:url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png");
+        width:100%;
+        height: 100%; }
+        .text h1{
+            position: relative;
+            top: 50%;
+        }
+.r button,select
+        { margin:10px;}
+        #More,#cours{
+            color: white;
+            font-size: 3em;
+        }
+ #textarea
+ {box-sizing:border-box;
+width:40%;
+height:10em;}
+
+#one,#two,#three {
+    display:inline-block;
+}
+/* 
+#imagesetbouttons{display:flex;
+justify-content:center;
+align-content:center;} */
+#imagesetbouttons div
+{margin:25px;}
+#imagesetbouttons div button{
+    opacity:0;
+   position: relative;
+   left: 50%;
+   top:-80px;
+ }
+ #imagesetbouttons div {
+     display:inline-block;
+     width:28%;
+     }
+    #imagesetbouttons div button a{
+        color:black;
+    }
+    a{text-decoration:none;}
